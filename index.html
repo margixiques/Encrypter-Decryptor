@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+       
+</head>
+<body>
+
+    <!-- <header>
+        <img class="logo" src="Imagenes/Logo.png" alt="Logo Alura">
+    </header> -->
+    <main>
+        <section class="section-0">
+            <img class="logo" src="Imagenes/Logo.png" alt="Logo Alura">
+        </section>
+
+        <section class="section-1">
+            <textarea cols="30" rows="13" class="text-area" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="information"><img src="Imagenes/bi_exclamation-circle-fill.png" alt="signo de Exclamación" class="exclamacion"> Solo letras minúsculas o sin acentos</h6>
+           </div>
+           <div class="buttons">
+                <input type="button" value="Encriptar" class="encrypt" onclick="btnEncrypt()">
+                <input type="button" value="Desencriptar" class="decrypt" onclick="btnDecrypt()">
+           </div>
+        </section>
+        <section class="section-2">
+            <textarea cols="15" rows="15" class="message"></textarea>
+            <div class="btn-copy">
+                <input type="button" value="Copiar" class="copy" onclick="btnCopy()">
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
