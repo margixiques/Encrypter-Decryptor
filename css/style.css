@@ -6,20 +6,21 @@
     line-height: 150%;
 }
 
-.logo {
-    margin-top: 3.9%;
-}
-
 main {
     display: flex;
-    margin-left: 5.8%;
+}
+
+.section-0 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
 }
 
 .text-area {
     border-style: none;
     letter-spacing: 2px;
     text-transform: lowercase;
-    margin-top: 8.5%;
+    margin-top: 168px;
     color: #0A3871; 
 }
 
@@ -45,56 +46,59 @@ main {
 
 .buttons {
     display: flex;
-    flex-direction: row;
     align-items: flex-end;
     padding: 0px;
     gap: 24px;
+    margin-bottom: 72px;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 19px;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    cursor: pointer;
+    border: 1px solid #0A3871;
+    color: #0A3871; 
 }
 
 .encrypt {
-    font-size: 16px;
-    line-height: 19px;
     background: #0A3871;
     color:  #FFFFFF;
-    width: 328px;
-    height: 67px;
-    padding: 24px;
-    border-radius: 24px;
     border: none;
-    cursor: pointer;
 }
 
 .decrypt {
-    font-size: 16px;
-    line-height: 19px;
-    background: #D8DFE8;
-    color: #0A3871;
-    width: 328px;
-    height: 67px;
-    padding: 24px;
-    border-radius: 24px;
-    border: 1px solid #0A3871;
-    cursor: pointer;
+    background: #D8DFE8;   
 }
 
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-size: 24px;
+    color: #495057;
+    line-height: 36px;
+    padding: 32px;
+    box-shadow: 0px 24px 32px -8px;
+    border-radius: 32px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 944px;
+    margin-left: 112px;
+    margin-top: 40px;
+    background-color: #FFFFFF; 
+    gap: 70px;
+}
 
 .message {
     background: #FFFFFF;
     background-image: url("../Imagenes/Muñeco.png"), url("../Imagenes/Text.png");
-    background-position: 26% 26%, 65% 65%;
+    background-position: 26% 26%, 75% 75%;
     background-repeat: no-repeat;
-    border: none;
-    color: #495057;
-    font-size: 24px;
-    padding: 32px;
-    margin-top: 3.9%;
-    margin-left: 69.4%;
-    box-shadow: 0px 24px 32px -8px;
-    border-radius: 32px;
-    justify-self: flex-start;
-    box-sizing: border-box;
-    width: 400px;
-    height: 944px;
+    border: none; 
 }
 
 .message:focus {
@@ -102,26 +106,12 @@ main {
 }
 
 .btn-copy {
-    margin-left: 80%;
-    margin-top: -53%;
-    position: relative;
-    background: #FFFFFF;
-    visibility: hidden;
-}
-.copy {
-    font-size: 16px;
-    line-height: 19px;
-    background: #FFFFFF;
-    color: #0A3871;
-    width: 328px;
-    height: 67px;
-    padding: 24px;
-    border-radius: 24px;
-    border: 1px solid #0A3871;
-    cursor: pointer;
+   background-color: #FFFFFF;
+   visibility: hidden;
 }
 
-@media  screen and (max-width:800px) {
+
+/* @media  screen and (max-width:800px) {
 
     main {
         width: 100%;
@@ -139,6 +129,6 @@ main {
         padding: 32px;
         gap: 32px;
 
-    }
+    }  
     
-}
+}*/

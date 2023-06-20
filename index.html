@@ -11,31 +11,22 @@
        
 </head>
 <body>
-
-    <!-- <header>
-        <img class="logo" src="Imagenes/Logo.png" alt="Logo Alura">
-    </header> -->
     <main>
-        <section class="section-0">
-            <img class="logo" src="Imagenes/Logo.png" alt="Logo Alura">
-        </section>
-
-        <section class="section-1">
+        <div class="section-0">
+            <img class="logo" src="Imagenes/Logo.png" alt="Logo Alura">  
+        </div>
+        <div class="section-1">
             <textarea cols="30" rows="13" class="text-area" placeholder="Ingrese el texto aquí"></textarea>
-            <div>
-                <h6 class="information"><img src="Imagenes/bi_exclamation-circle-fill.png" alt="signo de Exclamación" class="exclamacion"> Solo letras minúsculas o sin acentos</h6>
-           </div>
-           <div class="buttons">
-                <input type="button" value="Encriptar" class="encrypt" onclick="btnEncrypt()">
-                <input type="button" value="Desencriptar" class="decrypt" onclick="btnDecrypt()">
-           </div>
-        </section>
-        <section class="section-2">
-            <textarea cols="15" rows="15" class="message"></textarea>
-            <div class="btn-copy">
-                <input type="button" value="Copiar" class="copy" onclick="btnCopy()">
+            <h6 class="information"><img src="Imagenes/bi_exclamation-circle-fill.png" alt="signo de Exclamación" class="exclamacion"> Solo letras minúsculas o sin acentos</h6>
+            <div class="buttons">
+                <input type="button" value="Encriptar" class="button encrypt" onclick="btnEncrypt()">
+                <input type="button" value="Desencriptar" class="button decrypt" onclick="btnDecrypt()">
             </div>
-        </section>
+        </div>
+        <div class="section-2">
+            <textarea cols="15" rows="15" class="message"></textarea>
+            <input type="button" value="Copiar" class="button btn-copy" onclick="btnCopy()">  
+        </div>
     </main>
     <script src="./js/script.js"></script>
 </body>
